@@ -21,13 +21,21 @@ Use it to make something cool, have fun, and share what you've learned with othe
   border-radius: 0;
 }
 
-.navbar.center .navbar-inner {
-  text-align: center;
+#bs-example-navbar-collapse-1 {
+  height: 100px;
 }
 
-.navbar.center .navbar-inner .nav {
-  display:inline-block;
-  float: none;
+.navbar-brand {
+  margin-left: 35px;
+}
+
+.navbar-form {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
         
 /* Add a gray background color and some padding to the footer */
